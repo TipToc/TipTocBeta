@@ -19,8 +19,6 @@ $(function(){
     var path   = document.getElementById("photo").files[0]
     var url = window.URL || window.webkitURL
     var src = url.createObjectURL(path);
-
-    img.src = src;
     img.onload = function(){
       x = 150;
       y = (img.height * (x/img.width)) - (x/img.width);
@@ -29,6 +27,9 @@ $(function(){
       $(ctx).attr("height",y);
       url.revokeObjectURL(src);
     }
+    
+    img.src = src;
+    
   });
 
   $("#video").change(function(){
