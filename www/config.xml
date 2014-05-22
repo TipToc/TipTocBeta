@@ -7,6 +7,8 @@
     <author email="daniel.carvajal@cerebrum.co" href="http://cordova.io">
         Cerebrum team
     </author>
+    <preference name="phonegap-version" value="3.4.0" /> 
+    <gap:plugin name="org.apache.cordova.core.camera" />
     <content src="index.html" />
     <access origin="*" />
 </widget>
