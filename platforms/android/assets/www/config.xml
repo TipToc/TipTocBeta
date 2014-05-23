@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://cordova.apache.org/ns/1.0">
+    <name>TipTocBeta</name>
+    <description>
+        What you are looking for, when do ypu wnat and where do you want
+    </description>
+    <author email="daniel.carvajal@cerebrum.co" href="http://cordova.io">
+        Cerebrum team
+    </author>
+    <preference name="phonegap-version" value="3.4.0" /> 
+    <gap:plugin name="org.apache.cordova.core.camera" />
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
